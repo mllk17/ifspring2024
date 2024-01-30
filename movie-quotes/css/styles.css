@@ -1,0 +1,49 @@
+h1, h2, p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h1 {
+    color:#DF2623;
+}
+
+h2 {
+    color:#31408B;
+}
+
+p {
+    line-height:2;
+    padding-left:10px;
+}
+
+.dr {
+    color:#DF2623;
+}
+
+.dana {
+    color:#31408B;
+}
+
+.drray{
+    color:#DF5923;
+}
+
+.dreg{
+    color:#DFA323;
+}
+
+.mayor{
+    color:#23DF6D;
+}
+
+.winston{
+    color:#6D23DF;
+}
+
+.actions{
+    font-style:italic;
+}
+
+.scene{
+    border-left:3px solid #31408B;
+    background-color:#F4DAD9;
+}
