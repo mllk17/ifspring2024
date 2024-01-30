@@ -1,0 +1,49 @@
+body{
+    background-image:url("niki_oceansandengines_wallpaper.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    color:white;
+    padding:10px;
+}
+
+#niki-img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 180px;
+}
+
+a#youtube-img{
+    width:100px;
+    height:80px;
+    background-repeat:no-repeat;
+    background-image:url("youtube.png");
+    display:block;
+}
+
+h1{
+    font-family: 'Goudy Old Style';
+    font-size: 2.5em;
+}
+
+h2{
+    font-family: 'Goudy Old Style';
+    font-size: 1.8em;
+}
+
+p{
+    font-family:'Futura';
+}
+
+.emphasis {
+    font-family: 'Goudy Old Style';
+    font-style: italic;
+    font-size: large;
+    font-weight: bold;
+}
+
+#song-title{
+    border-top:cadetblue solid .5em;
+    border-bottom:cadetblue solid .5em;
+    padding: .8em;
+}
