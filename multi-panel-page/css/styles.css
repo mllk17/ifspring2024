@@ -1,0 +1,137 @@
+body {
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+h1{
+    font-size: 80px;
+    margin: 0;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+h2{
+    font-size: 30px;
+    margin: 0;
+}
+
+.column-container{
+    margin: auto;
+    width: 960px;
+    padding: 30px 0;
+}
+
+.top{
+    background-image:url("../images/nationalparktop.jpeg");
+    width: 100%;
+}
+
+header{
+    background-color: rgb(255, 0, 0, .25);
+}
+
+header .column-container{
+    padding: 166px 0 184px 0;
+    text-align: center;
+}
+
+.column-container h3{
+    text-align: center;
+    font-size: 40px;
+    margin: 10px 10px 31px 10px;
+}
+
+section:nth-child(2){
+    background-color: cadetblue;
+}
+
+section:nth-child(3){
+    background-color: white;
+}
+
+section:nth-child(4){
+    background-color:cornflowerblue;
+}
+
+.second{
+    height: 670px;
+}
+
+.last{
+    height: 357px;
+}
+
+.second img{
+    float: right;
+    width: 400px;
+    height: 300px;
+    margin: 1px 1px 20px 38px;
+}
+
+.second p{
+    margin-top: 16px;
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.third{
+    display: grid;
+}
+
+.third h3{
+    margin-top: -2px;
+    margin-bottom: 28px;
+}
+
+.photos img{
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-right: 12px;
+}
+
+.photos{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photos li{
+    display: block;
+    width: 45%;
+    margin-top: 0;
+    margin-right: 48px;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.photos p{
+    margin-top: 3px;
+    margin-bottom: 9px;
+}
+
+.photos li p:first-of-type{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.last h3{
+    margin-top: 21px;
+    margin-bottom: 32px;
+}
+
+.last p{
+    font-size: 26px;
+    text-align: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    line-height: 1.4;
+}
+
+footer{
+  
+    margin-top: 13px;
+    font-size: 18px;
+}
+
