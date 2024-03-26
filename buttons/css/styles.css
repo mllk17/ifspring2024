@@ -1,0 +1,213 @@
+.button_container{
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+a#btn_mollyjogger{
+    display: inline-block;
+    text-decoration: none;
+    color: #a8a476;
+    border: .25em solid #a8a476;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: #646569;
+    margin-top: 100px;
+}
+
+a#btn_foreflight{
+    display: inline-flex;
+    text-decoration: none;
+    background-image: url("../images/foreflight.jpeg");
+    box-shadow: inset 0 0 0 2000px rgba(26, 109, 164, 0.7);
+    background-size: cover;
+    width: 150px;
+    height: 50px;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    letter-spacing: .15rem;
+}
+
+#btn_foreflight:hover{
+    color: #2c97de;
+}
+
+
+a#btn_ideo{
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 15px 30px;
+    font-family: "Helvtica Neue Medium","Helvetica Medium",sans-serif;
+    letter-spacing: .24rem;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#btn_ideo:hover{
+    background: white;
+    color: black;
+    border: 2px solid black;
+}
+
+a#btn_pastaria{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #064047;
+    color: #f04924;
+    font-size: 15px;
+    padding: 30px 25px;
+    font-family: 'Helvetica Neue','Arial','sans-serif';
+    font-weight: 500;
+    letter-spacing: .05em;
+    margin: auto;
+    margin-top: 90px;
+}
+
+#btn_pastaria:hover{
+    color:#8fa8a8;
+    background-image: url("../images/pastariadeli.jpeg");
+    background-color: none;
+    background-size: cover;
+}
+
+a#btn_bissingers{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #c09620;
+    color: white;
+    font-family: "Questrial, sans-serif";
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    margin: auto;
+    margin-top: 95px;
+}
+
+#btn_bissingers:hover{
+    background: linear-gradient(to right, white 50%, #c09620 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+a#btn_colorrun{
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: #4d4dbb;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 15px 40px;
+    margin-top: 100px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#btn_colorrun:hover{
+    background: linear-gradient(90deg, #6dc8e4 0%, #f8dc4e 49%, #ea44ad 80%, #00C0FF 100%);
+    animation:slidebg 2s linear infinite;
+}
+
+@keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+}
+
+a#btn_moo{
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Varela", sans-serif;
+    letter-spacing: .1rem;
+    color: #009870;
+    font-size: 30px;
+    padding: 15px 40px;
+    margin-top: 90px;
+}
+
+#btn_moo:hover{
+    box-shadow: 5px 5px 5px #009870;
+}
+
+a#btn_hsn{
+    display: inline-flex;
+    text-decoration: none;
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: #0077c8;
+    text-align: center;
+    margin: auto;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+a#btn_explodingkittens{
+    display: inline-block;
+    text-decoration: none;
+    background-image: url("../images/explodingkittenslogo.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 140px;
+    margin-top: 50px;
+    border: 2px solid #e24699;
+}
+
+#btn_explodingkittens:hover{
+    background-image: url("../images/explodingkittenshover.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+a#btn_motortrend{
+    display: inline-block;
+    text-decoration: none;
+    width: 180px;
+    height: 20px;
+    padding: 15px 30px;
+    font-family: "Open Sans", sans-serif;
+    background-color: red;
+    border-radius: 5px;
+    letter-spacing: .1rem;
+    color: white;
+    margin-top: 100px;
+}
+
+i.fa-car-side{
+    right: 20px;
+    position: relative;
+    color: white;
+}
+
+#btn_motortrend:hover{
+    background-color: #cc0000;
+    box-shadow: 0 0 8px #ff0000;
+}
+
