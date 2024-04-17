@@ -1,0 +1,327 @@
+body{
+    margin: 0;
+}
+
+h1, h2, h3{
+    font-family: "Crimson Pro", serif;
+    font-weight: 600;
+}
+
+h1{
+    font-size: 96px;
+}
+
+h2{
+    font-size: 48px;
+}
+
+h3{
+    font-size: 36px;
+}
+
+p{
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.header{
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px;
+}
+
+footer{
+    padding-top: 40px;
+}
+
+#masters-logo{
+    max-width: 15%;
+    float: left;
+}
+
+nav#main-nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+}
+
+nav#main-nav ul li a {
+    display: inline-block;
+    color: #1C4932;
+    padding: .2em 2em;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav#main-nav ul li a.selected, nav#main-nav ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: #1C4932;
+}
+
+section{
+    margin:0;
+}
+
+.top-section{
+    background-image: url("../images/home_top_img.jpeg");
+    height: 80vh;
+    /*add min height*/
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 40px;
+}
+
+.top-section h1, h3{
+    color: white;
+    margin-top: 0;
+}
+
+.top-section h1{
+    padding-top: 80px;
+}
+
+.top-section h3{
+    width: 40%;
+    font-weight: 400;
+}
+
+.button a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 30px;
+    letter-spacing: .15rem;
+    text-transform: uppercase;
+}
+
+.button-white-back a{   
+    background-color: white;
+    color:#117D57;
+}
+
+.home{
+    height: 650px;
+}
+
+.section1{
+    display: flex;
+}
+
+.section1-text{
+    max-width: 55%;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.button-green-back a{
+    background-color: #1C4932;
+    color:white;
+}
+
+.section1 img{
+    height: auto;
+    max-width: 40%;
+    object-fit: contain;
+    float: top;
+    margin-right: 40px;
+}
+
+.section2{
+    background-color: #117D57;
+    display: flex;
+}
+
+.section2 img{
+    max-width: 55%;
+    margin-left: 40px;
+    margin-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.section2-text{
+    max-width: 40%;
+    margin-right: 40px;
+    color: white;
+}
+
+.button-white-outline a{
+    color: white;
+    border: 2px solid white;
+}
+
+a#on-history-pg{
+    text-decoration: underline;
+}
+
+.history-top-section{
+    background-image: url("../images/history_top_img.jpeg");
+    width: 100%;
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.history-top-section h1, .history-top-section h3, .traditions-top-section h1, .traditions-top-section h3{
+    color: white;
+    margin-top: 0;
+    text-align:right;
+    margin-right: 40px;
+}
+
+.history-top-section h1, .traditions-top-section h1{
+    padding-top: 80px;
+}
+
+.history{
+    display: flex;
+    margin-top: 40px;
+}
+
+.history h1{
+    color: #FCE300;
+    margin: 0;
+    padding-top: 20px;
+    align-items: right;
+}
+
+.history h3{
+    color: #1C4932;
+    margin-bottom: 0;
+}
+
+.history img{
+    max-width: 55%;
+    object-fit: cover;
+    max-height: 40rem;
+}
+
+.history span{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.history span h3{
+    text-align: center;
+}
+
+.history hr{
+    width: 40%;
+}
+
+.history-section1 img, .history-section11 img{
+    object-position: right;
+}
+
+.history-odd-text{
+    max-width: 40%;
+    text-align: right;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.history-even-text{
+    max-width: 40%;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.traditions-top-section{
+    background-image: url("../images/traditions_top_img.jpg");
+    height: 80vh;
+    /*add min height*/
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 40px;
+}
+
+.traditions-top-section-text{
+    max-width: 40%;
+    right: 0;
+    position: absolute;
+}
+
+.traditions h1, .traditions p{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.traditions h1{
+    color:#117D57;
+    margin-bottom: 0;
+}
+
+.traditions p{
+    max-width: 55%;
+}
+
+.traditions img{
+    display: flex;
+    max-width: 100%;
+    max-width: 40%;
+    object-fit: cover;
+}
+
+.traditions-container{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.an-container{
+    padding-top: 40px;
+}
+
+#golf-course{
+    max-width: 50%;
+}
+
+#golf-chart{
+    max-width: 45%;
+}
+
+.pastwinners-table{
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pastwinners-table thead, .pastwinners-table tfoot {
+    background-color: #117D57;
+    color: white;
+}
+
+.pastwinners-table th, .pastwinners-table td {
+    border: 1px solid #1C4932;
+    padding: 8px 10px;
+    font-family: "Crimson Pro", serif;
+    font-weight: 600;
+}
+
+.pastwinners-table td {
+    white-space: pre;
+}
+
+.pastwinners-table tbody > tr:nth-of-type(even) {
+    background-color: rgba(17, 125, 87, 0.3);
+  }
+  
+.pastwinners-tabletfoot th {
+    text-align: right;
+}
+  
+.pastwinners-table tfoot td {
+    font-weight: bold;
+}
