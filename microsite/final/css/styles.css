@@ -1,0 +1,485 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vw;
+}
+
+h1, h2, h3{
+    font-family: "Crimson Pro", serif;
+    font-weight: 600;
+}
+
+h1{
+    font-size: 96px;
+}
+
+h2{
+    font-size: 48px;
+}
+
+h3{
+    font-size: 36px;
+}
+
+p{
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+footer{
+    padding-top: 40px;
+    min-height: 30px;
+    position: absolute;
+    width: 100%;
+}
+
+#masters-logo-link{
+    width: 50%;
+}
+
+#masters-logo{
+    width: 20%;
+    float: left;
+}
+
+nav#main-nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+}
+
+nav#main-nav ul li a {
+    display: inline-block;
+    color: #1C4932;
+    padding: 1em;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav#main-nav ul li a.selected, nav#main-nav ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: #1C4932;
+}
+
+section{
+    margin:0;
+}
+
+.top-section{
+    background-image: url("../images/home_top_newwinner_section.jpeg");
+    height: 80vh;
+    min-width: 1180px;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 40px;
+}
+
+.top-section h1, h3{
+    color: white;
+    margin-top: 0;
+}
+
+.top-section h1{
+    padding-top: 80px;
+}
+
+.top-section h3{
+    max-width: 35%;
+    font-weight: 400;
+}
+
+.history-top-section h3{
+    max-width: 35%;
+    font-weight: 400;
+    right: 0;
+    position: absolute;
+}
+
+.footer-container{
+    background-color: #1C4932;
+    color: white;
+    padding: 40px;
+    width: 100%;
+}
+
+.footer-container p{
+    font-size: 16px;
+}
+
+.button a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 30px;
+    letter-spacing: .15rem;
+    text-transform: uppercase;
+}
+
+.button-white-back a{   
+    background-color: white;
+    color:#117D57;
+}
+
+.home{
+    height: 650px;
+}
+
+.section1{
+    
+    min-width: 1180px;
+}
+
+.section1-text{
+    max-width: 55%;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.button-green-back a{
+    background-color: #1C4932;
+    color:white;
+}
+
+.section1 img{
+    height: auto;
+    max-width: 40%;
+    object-fit: contain;
+    float: top;
+    margin-right: 40px;
+}
+
+@media (min-width: 390px){
+    .section1, .section2{
+        display: flex;
+    }
+}
+
+.section2{
+    background-color: #117D57;
+    
+    min-width: 1260px;
+  
+}
+
+.section2 img{
+    max-width: 55%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.section2-text{
+    max-width: 40%;
+    margin-right: 40px;
+    color: white;
+}
+
+@media (max-width:390px){
+    .section1-text, .section2-text{
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section1 img, .section2 img{
+        display: block;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section1 img{
+        margin-top: 10vh;
+    }
+
+
+    .section1{
+        margin-bottom: 60vh;
+    }
+
+    .section2{
+        margin-bottom: 120px;
+        min-height: 180vh;
+    }
+    
+}
+
+.button-white-outline a{
+    color: white;
+    border: 2px solid white;
+}
+
+.history-top-section{
+    background-image: url("../images/history_top_img.jpeg");
+    height: 80vh;
+    width: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.history-top-section h1, .history-top-section h3, .traditions-top-section h1, .traditions-top-section h3{
+    color: white;
+    margin-top: 0;
+    text-align:right;
+    margin-right: 40px;
+}
+
+.history-top-section h1, .traditions-top-section h1{
+    padding-top: 80px;
+}
+
+.history{
+    /* display: flex; */
+    margin-top: 40px;
+}
+
+@media (min-width: 900px){
+    .history{
+        display: flex;
+    }
+}
+
+.history h1{
+    color: #FCE300;
+    margin: 0;
+    padding-top: 20px;
+    align-items: right;
+}
+
+.history h3{
+    color: #1C4932;
+    margin-bottom: 0;
+}
+
+.history img{
+    max-width: 55%;
+    object-fit: cover;
+    max-height: 40rem;
+}
+
+.history span{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.history span h3{
+    text-align: center;
+}
+
+.history hr{
+    width: 40%;
+}
+
+.history-section1 img, .history-section11 img{
+    object-position: right;
+}
+
+.history-odd-text{
+    max-width: 40%;
+    text-align: right;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.history-even-text{
+    max-width: 40%;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.traditions-top-section{
+    background-image: url("../images/traditions_top_img.jpg");
+    height: 80vh;
+    /*add min height*/
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 40px;
+}
+
+.traditions-top-section-text{
+    max-width: 40%;
+    right: 0;
+    position: absolute;
+}
+
+#green-jackets-text{
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+.traditions h1{
+    color:#117D57;
+    margin-bottom: 0;
+}
+
+.traditions p, .traditions h1{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trophies-imgs, .caddies img{
+    padding-top: 20px;
+}
+
+.trophies p, .trophies-imgs, .caddies p, .caddies img{
+    max-width: 80%;
+    margin: auto;
+}
+
+.trophies-imgs img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.traditions img{
+    display: flex;
+    max-width: 80%;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.traditions-container{
+    padding-bottom: 20px;
+}
+
+@media (min-width: 900px){
+    .traditions-container{
+        display: flex;
+    }
+
+    .traditions img{
+        display: flex;
+        max-width: 40%;
+        object-fit: cover;
+    }
+
+    .traditions p{
+        max-width: 55%;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .caddies p, .traditions h1, .trophies p{
+        max-width: 90%;
+    }
+}
+
+.an-container{
+    padding-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.an-container img{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.an-container-tables{
+    display: flex;
+}
+
+#golf-course{
+    width: 100%;
+}
+
+#golf-chart{
+    width: 90%;
+}
+
+@media (min-width: 1000px){
+    #golf-course{
+        max-width: 45%;
+    }
+
+    .an-container{
+        display: flex;
+    }
+}
+
+.pastwinners-table, .augustanational-table{
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.pastwinners-table thead, .pastwinners-table tfoot, .augustanational-table thead, .augustanational-table tfoot {
+    background-color: #117D57;
+    color: white;
+}
+
+.pastwinners-table th, .pastwinners-table td, .augustanational-table th, .augustanational-table td {
+    border: 1px solid #1C4932;
+    padding: 8px 10px;
+    font-family: "Crimson Pro", serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.pastwinners-table td, .augustanational-table td {
+    white-space: pre;
+    font-family: "Crimson Text", serif;
+}
+
+.pastwinners-table tbody > tr:nth-of-type(even), .augustanational-table tbody > tr:nth-of-type(even) {
+    background-color: rgba(17, 125, 87, 0.3);
+  }
+  
+.pastwinners-table tfoot th, .augustanational-table tfoot th {
+    text-align: right;
+}
+  
+.pastwinners-table tfoot td, .augustanational-table tfoot td {
+    font-weight: bold;
+}
+
+.pastwinners-text-container{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    float: top;
+
+}
+
+.pastwinners-text-container ul{
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+@media (min-width: 1100px){
+    .pastwinners-container{
+        display: flex;
+    }
+    .pastwinners-text-container{
+        max-width: 20%;
+        margin-left: 40px; 
+        margin-right: 20px;
+    }
+}
+
